@@ -7,6 +7,8 @@ TIL LLMs
 
 Given a chain of thoughts [x1, x2, ... xn]
 
+a. Test on post-hoc
+
 Athors test if the CoT generations are post-hoc (i.e., produced after a certain conclusion has
 already been guaranteed)
 
@@ -18,3 +20,25 @@ The second test is to pertube a step in the CoT (make it errorneous) and then ob
 They also found that less post-hoc evidence via this test.
 Also, the extent of post-hoc reasoning varies considerably between tasks, and it is not strongly correlated with the
 accuracy improvement conferred by CoT (or the degree of post-hoc does not significantly affect the improved accuracy between and after using CoT).
+
+b. Test on uninformative CoT
+
+In this test, authors replace the CoT by meaningless tokens (fillers) to test if the model is using the CoT to do performance-improving computation (use more computation) that it does not reveal in the CoT itself.
+
+They found that using this does not improve the performance of the model.
+These results suggest that extra test-time compute alone is not used by models to
+perform helpful but unrevealed reasoning.
+
+c. Test on paraphrasing the CoT
+
+The reasoning can be not post-hoc but still unfaithful if the LLM only care about the wording (not the underlying meaning of the reasoning). 
+The authors paraphrase the CoT. 
+They found that both paraphrased and original CoT produce roughly the same results.
+
+Apart from the CoT, authors also study the effects of the model size on the CoT faithfulness (i.e., if I have a bigger model, does it break the model faithfulness?).
+
+Then, on the tasks (out of the 8 tested tasks) that have significantly lower faithfulness scores, they study if there exist any models that produce faithful reasoning?
+They use percentage of the time the answer changes with vs. without CoT, a metric that intuitively captures how much the model relies on the CoT to predict answers.
+
+They suggest that to elicit faithful reasoning that is appropriate for explaining model behavior, it may be necessary to choose models that are less capable than the maximally capable
+model available, especially for easier tasks
