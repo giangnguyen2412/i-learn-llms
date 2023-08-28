@@ -3,8 +3,8 @@ TIL LLMs
 
 ## Chain-of-Thought (CoT)
 
-### Measuring Faithfulness in Chain-of-Thought Reasoning
-[Link](https://arxiv.org/abs/2307.13702)
+### [Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702)
+
 
 Given a chain of thoughts [x1, x2, ... xn]
 
@@ -44,12 +44,11 @@ They use percentage of the time the answer changes with vs. without CoT, a metri
 They suggest that to elicit faithful reasoning that is appropriate for explaining model behavior, it may be necessary to choose models that are less capable than the maximally capable
 model available, especially for easier tasks
 
-### Tree of Thoughts: Deliberate Problem Solving with Large Language Models
-[Link]((https://arxiv.org/abs/2305.10601))
+### [Tree of Thoughts: Deliberate Problem Solving with Large Language Models]((https://arxiv.org/abs/2305.10601))
 
 ## Consciousness debate
 
-[Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://www.nature.com/articles/d41586-023-02684-5)
+### [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://www.nature.com/articles/d41586-023-02684-5)
 
 Excerpts:
 
