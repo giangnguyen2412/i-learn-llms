@@ -44,7 +44,7 @@ They use percentage of the time the answer changes with vs. without CoT, a metri
 They suggest that to elicit faithful reasoning that is appropriate for explaining model behavior, it may be necessary to choose models that are less capable than the maximally capable
 model available, especially for easier tasks
 
-### [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601))
+### [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
 
 ## Consciousness debate
 
