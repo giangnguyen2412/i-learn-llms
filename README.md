@@ -42,3 +42,17 @@ They use percentage of the time the answer changes with vs. without CoT, a metri
 
 They suggest that to elicit faithful reasoning that is appropriate for explaining model behavior, it may be necessary to choose models that are less capable than the maximally capable
 model available, especially for easier tasks
+
+
+## Consciousness debate
+
+[Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://www.nature.com/articles/d41586-023-02684-5)
+
+Excerpts:
+
+> consciousness relates to how systems process information, irrespective of what they are made of — be it neurons, computer chips or something else.
+> On the basis of these assumptions, the team selected six of these theories and extracted from them a list of consciousness indicators.
+> Theory 1: Humans and other animals use many specialized systems, also called modules, to perform cognitive tasks such as seeing and hearing. These modules work independently, but in parallel, and they share information by integrating into a single system. A person would evaluate whether a particular AI system displays an indicator derived from this theory, Long says, “by looking at the architecture of the system and how the information flows through it”.
+> Large language models such as ChatGPT, and finds that this type of system arguably has some of the indicators of consciousness associated with global workspace theory.
+
+
