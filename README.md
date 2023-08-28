@@ -46,7 +46,18 @@ model available, especially for easier tasks
 
 ### [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
 
+They tried to integrate trees into chain of thoughts. At each step, they decompose thought steps and then generate thoughts, then evaluate the states and explore the tree.
+In this framework, we can use CoT when we generate thoughts.
+
+So, instead of only one single chain of thoughts, the Tree has multiple chains of thoughts, which allows for more exploration and consideration of different options.
+
+ToT is a generalized software application built on top of large language models that implements the ToT framework. It involves decomposing the intermediate process into thought steps, generating potential thoughts from each state, heuristically evaluating states, and using a search algorithm to explore the tree structure and find the optimal path.
+
+So in summary, CoT is a specific prompting technique that can be applied within the ToT framework to generate individual chains of thought. However, ToT is a more general framework that allows for multiple chains of thought to be generated and evaluated using heuristics and search algorithms.
+
 ## Consciousness debate
+
+
 
 ### [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://www.nature.com/articles/d41586-023-02684-5)
 
