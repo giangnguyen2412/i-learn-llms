@@ -68,4 +68,6 @@ Excerpts:
 > Theory 1: Humans and other animals use many specialized systems, also called modules, to perform cognitive tasks such as seeing and hearing. These modules work independently, but in parallel, and they share information by integrating into a single system. A person would evaluate whether a particular AI system displays an indicator derived from this theory, Long says, “by looking at the architecture of the system and how the information flows through it”.
 > Large language models such as ChatGPT, and finds that this type of system arguably has some of the indicators of consciousness associated with global workspace theory.
 
+## Theory of mind
 
+> Theory of mind (guessing what other people are thinking). 
